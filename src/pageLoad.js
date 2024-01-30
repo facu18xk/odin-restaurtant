@@ -32,8 +32,6 @@ function leftComponent() {
 }
 
 export default function main() {
-  const navItem = document.querySelector('.nav--tab:first-child');
-  navItem.classList.add("tab--active");
   const container = document.createElement('div');
   container.classList.add("main");
   container.appendChild(leftComponent());

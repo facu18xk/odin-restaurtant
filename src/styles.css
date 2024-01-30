@@ -123,3 +123,73 @@ body {
   width: max(240px, 50%);
   height: max(240px, 50%);
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu--subheader {
+  text-align: center;
+}
+
+.subheader--title {
+  font-size: 2.5rem;
+}
+
+.subheader--description {
+  max-width: 500px;
+  font-weight: 300;
+}
+
+.menu--list {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  column-gap: 20px;
+}
+
+
+.list--item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list--item {
+  border-bottom: 1px dotted gray;
+}
+
+.description--title {
+  font-size: 1.2rem;
+}
+
+.description--p {
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+.item--price {
+  font-weight: bold;
+  color: var(--dark-green);
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about--gallery {
+  margin: 0 100px;
+  display: grid;
+  grid-template: repeat(8, 1fr) / repeat(7, 1fr);
+}
+
+.gallery--image1 {
+  grid-area: 1 / 1 / 6 / 5;
+}
+
+.gallery--image2 {
+  grid-area: 2 / 4 / 8 / 7;
+}

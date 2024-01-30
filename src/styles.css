@@ -1,0 +1,125 @@
+:root {
+  --dark-green: #195A00;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+
+.nav--tab {
+  background-color: transparent;
+  border: none;
+}
+
+.tab--active {
+  border-bottom: 2px solid var(--dark-green);
+  font-weight: bold;
+}
+
+.main {
+  min-width: 100vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.main--left {
+  margin-top: 20%;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.left--subtitle {
+  font-family: 'Miniver', cursive;
+  color: var(--dark-green);
+  font-size: 1.2rem;
+}
+
+.left--title {
+  margin: 0;
+  font-size: 3rem;
+  max-width: 460px;
+}
+
+.left--description {
+  max-width: 480px;
+}
+
+.buttons--order,
+.buttons--show {
+  width: 195px;
+  height: 58px;
+  border-radius: 6px;
+  border: none;
+  font-weight: bold;
+}
+
+.buttons--order {
+  margin-right: 10px;
+  background: var(--dark-green);
+  color: white;
+}
+
+.buttons--show {
+  background-color: transparent;
+  color: var(--dark-green);
+  border: 1px solid var(--dark-green);
+}
+
+.main--right {
+  display: flex;
+  position: relative;
+  justify-content: end;
+}
+
+.right--bg {
+  position: absolute;
+  top: -2vh;
+  width: 80%;
+  ;
+}
+
+.right--lettuce {
+  position: absolute;
+  width: 50%;
+  top: 25%;
+  right: 35%;
+}
+
+.right--leaf1,
+.right--leaf2 {
+  position: absolute;
+  width: 30%;
+}
+
+.right--leaf1 {
+  top: 16%;
+  right: 50%;
+}
+
+.right--leaf2 {
+  transform: rotate(250deg);
+  top: 50%;
+  right: 45%;
+}
+
+.right--plate {
+  z-index: 10;
+  position: relative;
+  top: 20%;
+  right: 20%;
+  width: max(240px, 50%);
+  height: max(240px, 50%);
+}

@@ -6,9 +6,9 @@ export default function template() {
     <header class="header">
     <img src="${logo}" alt="logo food tuck">
     <nav class="header--nav">
-      <button class="nav--tab">Home</button>
-      <button class="nav--tab">Menu</button>
-      <button class="nav--tab">About</button>
+      <button class="nav--tab tab--home">Home</button>
+      <button class="nav--tab tab--menu">Menu</button>
+      <button class="nav--tab tab--about">About</button>
     </nav>
   </header>
   <div id="content" class="content">

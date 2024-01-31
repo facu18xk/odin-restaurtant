@@ -187,7 +187,7 @@ body {
   display: grid;
   align-items: center;
   justify-items: center;
-  grid-template: repeat(8, 1fr) / repeat(7, 1fr);
+  grid-template: repeat(6, 1fr) / repeat(7, 1fr);
 }
 
 .gallery--image1 {
@@ -206,7 +206,7 @@ body {
 }
 
 .article--title {
-  margin-top: 0;
+  margin: 0;
   font-size: 3rem;
 }
 

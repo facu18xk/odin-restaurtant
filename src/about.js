@@ -1,6 +1,6 @@
 import image1 from './assets/about1.png';
 import image2 from './assets/about2.png';
-import truck from './assets/factory.png';
+import truck from './assets/truck.png';
 import timer from './assets/timer.png';
 import hamburger from './assets/hamburguer.png';
 import factory from './assets/factory.png';

@@ -21,5 +21,5 @@ Project Structure
 
 The index.js file contains the tab-switching logic. Event listeners for each button in the header navbar clear the current content of div#content and execute the appropriate tab module to populate it with new content.
 ### Preview
-
+![Site preview](preview.png)
 [Live-demo](https://facu18xk.github.io/odin-restaurtant/)
